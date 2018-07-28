@@ -13,12 +13,12 @@ class D
 {
 	public function __construct($var)
 	{
-		self::dumpExit($var);
+		self::dump($var);
 	}
 	
 	public static function dump($var)
 	{
-		echo '<pre style="background-color:#222; color: darkcyan;">';
+		echo '<pre style="background-color:#222; color: darkcyan; padding:20px;">';
 		var_dump($var);
 		echo '</pre>';
 		exit;
